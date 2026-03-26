@@ -16,7 +16,7 @@ GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY", "")
 if GOOGLE_API_KEY:
     genai.configure(api_key=GOOGLE_API_KEY)
 
-model = genai.GenerativeModel("gemini-1.5-flash")   # free & fast
+model = genai.GenerativeModel("models/gemini-1.5-flash")   # free & fast
 
 # ─── Embedding Model ───────────────────────────────────────────────────────────
 embed_model = SentenceTransformer('all-MiniLM-L6-v2')
