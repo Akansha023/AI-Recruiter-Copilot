@@ -1,3 +1,4 @@
+import os
 """
 AI Recruiter Copilot — Main Streamlit Application
 Built with Gemini + RAG (ChromaDB + SentenceTransformers)
