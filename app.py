@@ -145,7 +145,7 @@ with st.sidebar:
 
     st.markdown("---")
     st.markdown("### 🛠️ Tech Stack")
-    for tech in ["Gemini 1.5 Flash (LLM)", "ChromaDB (Vector DB)", "SentenceTransformers", "LangChain (Chunking)", "Streamlit (UI)"]:
+    for tech in ["Gemini 2.5 Flash (LLM)", "ChromaDB (Vector DB)", "SentenceTransformers", "LangChain (Chunking)", "Streamlit (UI)"]:
         st.markdown(f"• {tech}")
 
     st.markdown("---")
