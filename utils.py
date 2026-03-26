@@ -5,7 +5,7 @@ Handles PDF extraction, embedding, vector search, and LLM calls.
 
 import os
 import google.generativeai as genai
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from sentence_transformers import SentenceTransformer
 import chromadb
 from pypdf import PdfReader
